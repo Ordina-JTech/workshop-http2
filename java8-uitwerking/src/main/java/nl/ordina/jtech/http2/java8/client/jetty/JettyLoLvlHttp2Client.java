@@ -37,7 +37,8 @@ public class JettyLoLvlHttp2Client {
         //host = "http2.golang.org"; port=443; path="gophertiles";// ends with NPE on decrypt..
         //host = "192.168.99.100"; port=4430; path="gophertiles";// ends with NPE on decrypt..
         //host = "localhost"; port=8443; path="examples/servlets/serverpush/simpleimage"; // works - WITH push!
-        host = "localhost"; port=8443; path="http2-java8-example-1.0/push"; // works - WITH push!
+        //host = "localhost"; port=8443; path="http2-java8-example-1.0/push"; // works - WITH push!
+        host = "localhost"; port=8444; path="hello"; // spring boot undertow - WITH push!
 
         // plaintext (http:// !) HTTP/1.x connection to Tomcat fails server side with:
         //   org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
